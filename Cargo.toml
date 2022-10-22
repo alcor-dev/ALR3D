@@ -1,0 +1,92 @@
+[package]
+name = "ALR3D"
+version = "0.1.0"
+edition = "2018"
+resolver = "2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytemuck = { version = "1.4", features = ["derive"]}
+wgpu = "0.12"
+cgmath = "0.18"
+env_logger = "0.9"
+futures = "0.3"
+gfx-hal = "0.9"
+image = "0.24"
+log = "0.4"
+pollster = "0.2"
+winit = "0.26"
+anyhow = "1.0"
+
+[[example]]
+name = "step01_test01"
+path = "examples/step01/test01.rs"
+
+[[example]]
+name = "step01_test02"
+path = "examples/step01/test02.rs"
+
+[[example]]
+name = "step02_primer_triangulo"
+path = "examples/step02/first_triangle.rs"
+
+[[example]]
+name = "step02_triangulo_color"
+path = "examples/step02/triangle_vertex_color.rs"
+
+[[example]]
+name = "step03_point_line"
+path = "examples/step03/point_line.rs"
+
+[[example]]
+name = "step03_triangulos"
+path = "examples/step03/triangles.rs"
+
+[[example]]
+name = "step04_triangulo"
+path = "examples/step04/triangle.rs"
+
+[[example]]
+name = "step04_cuadrado"
+path = "examples/step04/square.rs"
+
+[[example]]
+name = "step04_cuadrado_indexado"
+path = "examples/step04/square_index.rs"
+
+[[example]]
+name = "step05_scaling"
+path = "examples/step05/scaling.rs"
+
+[[example]]
+name = "step05_translation"
+path = "examples/step05/translation.rs"
+
+[[example]]
+name = "step05_rotation"
+path = "examples/step05/rotation.rs"
+
+[[example]]
+name = "step05_view_projection"
+path = "examples/step05/view_projection.rs"
+
+[[example]]
+name = "step06_line3d"
+path = "examples/step06/line3d.rs"
+
+[[example]]
+name = "step06_cubo_color"
+path = "examples/step06/cube_face_color.rs"
+
+[[example]]
+name = "step06_cubo_vertice_color"
+path = "examples/step06/cube_vertex_color.rs"
+
+[[example]]
+name = "step06_cubo_rotador"
+path = "examples/step06/rotate_cube.rs"
+
+[[example]]
+name = "step06_control_camara"
+path = "examples/step06/camera_control.rs"
