@@ -4,7 +4,7 @@ El objetivo del proyecto es tener un pequeño renderizador ligero basado en [wGP
 El proyecto sirvió como __TFG__ y me ayudó a entender un poco mejor como funciona tanto un pipeline 3D como 
 ciertas prácticas usadas en Rust
 
-# Objetivos
+## Objetivos
 
 Podríamos dividir este proyecto en dos futuros subproyectos que podrían servir para un mayor aprendizaje tanto
 en 3D como en programación propia de Rust:
@@ -24,7 +24,7 @@ en 3D como en programación propia de Rust:
   - La idea es que pueda ser un visualizador rápido donde puedas ver las animaciones asociadas a los modelos contenidos
   - Quizás incluso añadir una barra que permita hacer scrubbing para poder estudiar las animaciones
 
-# Ideas descartadas
+## Ideas descartadas
 
 Evidentemente incluso había barajado más posibilidades tales como:
 - [x] Motor de juegos 3D
