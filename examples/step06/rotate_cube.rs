@@ -13,6 +13,8 @@ mod transforms;
 #[path = "../common/vertex_data.rs"]
 mod vertex_data;
 
+//true -> proyección cónica
+//false -> proyección ortogonal
 const IS_PERSPECTIVE: bool = true;
 //estado previo: const ANIMATION_SPEED:f32 = 1.0;
 const ANIMATION_SPEED:f32 = 1.0;
